@@ -8,6 +8,7 @@ public class Student {
     public Student(){
 
     }
+
     //getter
     public String getstudentName(){
    return studentName;
@@ -34,20 +35,26 @@ public class Student {
         this.program = program;
     }
 
+    public Student(String studentID, String studentName, String program){
+        this.studentID = studentID;
+        this.studentName = studentName;
+        this.program = program;
+    }
+
     public void display(){
-        System.out.printf("Student ID: %s \n", studentID);
-        System.out.printf("Student name: %s \n", studentName);
-        System.out.printf("Student program: %s \n", program);
+        System.out.println("Student ID: " + getstudentID());
+        System.out.println("Student name:" + getstudentName());
+        System.out.println("Student program:" + getprogram());
         System.out.println();
     }
 
-    @Override
-    public String toString() {
-        return "Student{" +
-                "studentID='" + studentID + '\'' +
-                ", studentName='" + studentName + '\'' +
-                ", program='" + program + '\'' +
-                '}';
-    }
+//    @Override
+//    public String toString() {
+//        return "Student{" +
+//                "studentID='" + studentID + '\'' +
+//                ", studentName='" + studentName + '\'' +
+//                ", program='" + program + '\'' +
+//                '}';
+//    }
 
 }

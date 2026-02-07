@@ -9,10 +9,12 @@ public class Main {
       student.setstudentName("John Wick");
       student.setprogram("Information Technology");
 
-        System.out.println("Student ID: " + student.getstudentID());
-        System.out.println("Student Name: " + student.getstudentName());
-        System.out.println("Student Program: " + student.getprogram());
-        System.out.println();
+//        System.out.println("Student ID: " + student.getstudentID());
+//        System.out.println("Student Name: " + student.getstudentName());
+//        System.out.println("Student Program: " + student.getprogram());
+//        System.out.println();
+
+
 
         course.setcourseID("1101");
         course.setcourseName("Inteprog");
@@ -27,10 +29,10 @@ public class Main {
         student.setstudentName("John Doe");
         student.setprogram("Information Technology");
 
-        System.out.println("Student ID: " + student.getstudentID());
-        System.out.println("Student Name: " + student.getstudentName());
-        System.out.println("Student Program: " + student.getprogram());
-        System.out.println();
+//        System.out.println("Student ID: " + student.getstudentID());
+//        System.out.println("Student Name: " + student.getstudentName());
+//        System.out.println("Student Program: " + student.getprogram());
+//        System.out.println();
 
         course.setcourseID("1202");
         course.setcourseName("Inteprog");
@@ -40,6 +42,8 @@ public class Main {
         System.out.println("Course Name: " + course.getcourseName());
         System.out.println("Program: " + course.getprogram());
         System.out.println();
+
+      student.display();
 
 
     }
