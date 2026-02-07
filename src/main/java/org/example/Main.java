@@ -43,7 +43,13 @@ public class Main {
         System.out.println("Program: " + course.getprogram());
         System.out.println();
 
+        Student student2 = new Student();
+        student2.setstudentID("2025AK47");
+        student2.setstudentName("Kairi");
+        student2.setprogram("Psychology");
+
       student.display();
+      student2.display();
 
 
     }
