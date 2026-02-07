@@ -20,10 +20,10 @@ public class Main {
         course.setcourseName("Inteprog");
         course.setprogram("Information Technology");
 
-        System.out.println("Course ID: " + course.getcourseID());
-        System.out.println("Course Name: " + course.getcourseName());
-        System.out.println("Program: " + course.getprogram());
-        System.out.println();
+//        System.out.println("Course ID: " + course.getcourseID());
+//        System.out.println("Course Name: " + course.getcourseName());
+//        System.out.println("Program: " + course.getprogram());
+//        System.out.println();
 
         student.setstudentID("2024EZpq2");
         student.setstudentName("John Doe");
@@ -38,10 +38,10 @@ public class Main {
         course.setcourseName("Inteprog");
         course.setprogram("Information Technology");
 
-        System.out.println("Course ID: " + course.getcourseID());
-        System.out.println("Course Name: " + course.getcourseName());
-        System.out.println("Program: " + course.getprogram());
-        System.out.println();
+//        System.out.println("Course ID: " + course.getcourseID());
+//        System.out.println("Course Name: " + course.getcourseName());
+//        System.out.println("Program: " + course.getprogram());
+//        System.out.println();
 
         Student student2 = new Student();
         student2.setstudentID("2025AK47");
