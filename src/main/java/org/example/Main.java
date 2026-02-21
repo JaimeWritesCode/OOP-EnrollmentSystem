@@ -7,7 +7,7 @@ import org.example.service.StudentRegistration;
 public class Main {
     public static void main(String[] args) {
     StudentRegistration studentRegistration = new StudentRegistration();
-    CourseRegistration courseRegistration = new CourseRegistration()
+    CourseRegistration courseRegistration = new CourseRegistration();
 
     studentRegistration.addStudent(new Student("2024111222", "Mike", "BSIT"));
     studentRegistration.addStudent(new Student("2024222333", "John", "BSIT"));
