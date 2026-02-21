@@ -5,8 +5,10 @@ public class Student {
     private String studentName;
     private String program;
 
-    public Student(){
-
+    public Student(String studentID, String studentName, String program){
+        this.studentID = studentID;
+        this.studentName = studentName;
+        this.program = program;
     }
 
     //getter
@@ -35,26 +37,15 @@ public class Student {
         this.program = program;
     }
 
-    public Student(String studentID, String studentName, String program){
-        this.studentID = studentID;
-        this.studentName = studentName;
-        this.program = program;
-    }
 
-    public void display(){
-        System.out.println("Student ID: " + getstudentID());
-        System.out.println("Student name:" + getstudentName());
-        System.out.println("Student program:" + getprogram());
-        System.out.println();
-    }
 
-//    @Override
-//    public String toString() {
-//        return "Student{" +
-//                "studentID='" + studentID + '\'' +
-//                ", studentName='" + studentName + '\'' +
-//                ", program='" + program + '\'' +
-//                '}';
-//    }
+    @Override
+    public String toString() {
+        return "Student{" +
+                "studentID='" + studentID + '\'' +
+                ", studentName='" + studentName + '\'' +
+                ", program='" + program + '\'' +
+                '}';
+    }
 
 }

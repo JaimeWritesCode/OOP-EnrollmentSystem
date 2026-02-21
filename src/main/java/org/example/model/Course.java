@@ -5,7 +5,7 @@ public class Course {
     private String courseName;
     private String program;
 
-    public Course(){
+    public Course(String courseID, String courseName, String program){
 
     }
 
