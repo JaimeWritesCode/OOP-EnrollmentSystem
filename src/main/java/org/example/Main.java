@@ -9,12 +9,35 @@ public class Main {
     StudentRegistration studentRegistration = new StudentRegistration();
     CourseRegistration courseRegistration = new CourseRegistration();
 
+    //Registering students
     studentRegistration.addStudent(new Student("2024111222", "Mike", "BSIT"));
     studentRegistration.addStudent(new Student("2024222333", "John", "BSIT"));
+
+    //Displaying students
     studentRegistration.displayall();
 
-    courseRegistration.addCourse(new Course("1", "Inteprog", "BSIT"));
+    //Registering courses
+    courseRegistration.addCourse(new Course("1", "Integrative Programming and Technologies", "BSIT"));
+    courseRegistration.addCourse(new Course("2", "Dismath", "BSIT"));
+
+    //Displaying courses
     courseRegistration.displayall();
+
+        System.out.println("--------------------------------------");
+        System.out.println("Basic updating and removing");
+
+        //Updating and removing
+
+        studentRegistration.updateStudent(new Student("2024111222", "Michael", "CS"));
+        studentRegistration.displayall();
+
+        studentRegistration.updateStudent(new Student("2024111222","Vincent"));
+        studentRegistration.displayall();
+
+
+        studentRegistration.delete(new Student("2024111222", "Vincent", "CS"));
+        studentRegistration.displayall();
+
 
     }
 }

@@ -11,6 +11,11 @@ public class Student {
         this.program = program;
     }
 
+    public Student(String studentID, String studentName){
+        this.studentID = studentID;
+        this.studentName = studentName;
+    }
+
     //getter
     public String getstudentName(){
    return studentName;
