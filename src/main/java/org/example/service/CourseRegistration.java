@@ -9,4 +9,9 @@ public class CourseRegistration {
     public void addCourse(Course course){
         courses.add(course);
     }
+
+    //Read
+    public void displayall(){
+        System.out.println(courses);
+    }
 }
