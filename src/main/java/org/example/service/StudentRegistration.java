@@ -24,7 +24,7 @@ public class StudentRegistration {
               System.out.print("Enter student name: ");
               String name = input.nextLine();
 
-              System.out.print("Enter student age: ");
+              System.out.print("Enter student program: ");
               String program = input.nextLine();
 
               students.set(i, new Student(student.getstudentID(), name, program));
