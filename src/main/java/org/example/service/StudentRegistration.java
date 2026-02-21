@@ -25,9 +25,9 @@ public class StudentRegistration {
               String name = input.nextLine();
 
               System.out.print("Enter student age: ");
-              String age = input.nextLine();
+              String program = input.nextLine();
 
-              students.set(i, new Student(student.getstudentID(), name, age));
+              students.set(i, new Student(student.getstudentID(), name, program));
               break;
           }
       }

@@ -24,7 +24,7 @@ public class Main {
     courseRegistration.displayall();
 
         System.out.println("--------------------------------------");
-        System.out.println("Basic updating and removing");
+        // "System.out.println("Basic updating and removing");
 
         //Updating and removing
 
